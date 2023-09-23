@@ -5,7 +5,12 @@ import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 function CollapsibleNavbar() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar
+        id="home"
+        collapseOnSelect
+        expand="lg"
+        className="bg-body-tertiary"
+      >
         <Container>
           <Navbar.Brand href="#home">Tailor Trade</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -14,7 +19,7 @@ function CollapsibleNavbar() {
               <Nav.Link href="#mission">Mission Statement</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
             </Nav>
-            <Nav>
+            <Nav className="d-flex align-items-center">
               <Image
                 height={25}
                 width={25}
@@ -23,8 +28,8 @@ function CollapsibleNavbar() {
                 src="https://tinyurl.com/4bremhx7"
                 alt="avatar"
               ></Image>
-              <NavDropdown drop="down-centered">
-                <Nav.Link>My Profile</Nav.Link>
+              <NavDropdown align="end">
+                <Nav.Link href="./profile">My Profile</Nav.Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
