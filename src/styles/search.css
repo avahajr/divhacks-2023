@@ -6,9 +6,10 @@
   position: relative;
 }
 
-/* .form-control {
-  background-color: #bfe2b4 !important;
-} */
+.form-control {
+  min-height: 4em;
+  /* font-size: 0.8em; */
+}
 
 .form .fa-search {
   position: absolute;
