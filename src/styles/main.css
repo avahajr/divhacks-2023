@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-
-body {
-  background-color: "fffff3";
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+*{
+  font-family: "Nunito";
+  font-size: 16px;
 }
 
 .logo {
