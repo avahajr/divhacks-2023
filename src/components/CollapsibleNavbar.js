@@ -12,15 +12,18 @@ function CollapsibleNavbar(props) {
         className="bg-body-tertiary"
       >
         <Container>
-          <Navbar.Brand href="#home" className="logo">
-            Logo
-          </Navbar.Brand>
+        
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#mission">Mission Statement</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
             </Nav>
+            <Nav style={{alignContent:"center"}}>
+            <Navbar.Brand href="#home">
+            <img src="Divlogo-2.png" width={200} height={200}/>
+          </Navbar.Brand>
+          </Nav>
             <Nav className="d-flex align-items-center">
               <Image
                 height={25}
