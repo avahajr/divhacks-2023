@@ -2,4 +2,25 @@
 
 .logo {
   font-family: "Bebas Neue";
+  font-size: 2em;
+}
+
+.purpose {
+  font-size: 3em;
+  align-items: center;
+}
+
+.background-shape {
+  background-color: rgba(
+    85,
+    85,
+    85,
+    0.2
+  ); /* Use rgba to set opacity for background */
+  border-radius: 10px;
+}
+
+.background-shape p {
+  color: #000; /* Set text color to black */
+  /* opacity: 1; Set text opacity to 100% */
 }
