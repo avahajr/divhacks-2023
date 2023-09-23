@@ -7,6 +7,7 @@ import SearchBar from "./components/SearchBar";
 function App() {
   return (
     <>
+      {/* TODO: get props.name from the db*/}
       <CollapsibleNavbar name="Jane Barnard" />
       <Container>
         <SearchBar />

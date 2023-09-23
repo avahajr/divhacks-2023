@@ -12,7 +12,9 @@ function CollapsibleNavbar(props) {
         className="bg-body-tertiary"
       >
         <Container>
-          <Navbar.Brand href="#home">Tailor Trade</Navbar.Brand>
+          <Navbar.Brand href="#home" className="logo">
+            Tailor Trade
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -24,7 +26,6 @@ function CollapsibleNavbar(props) {
                 height={25}
                 width={25}
                 roundedCircle
-                // className=""
                 src="https://tinyurl.com/4bremhx7"
                 alt="avatar"
               ></Image>
