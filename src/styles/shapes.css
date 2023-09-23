@@ -28,7 +28,8 @@
   border-radius: 10px;
 }
 
-.background-shape p {
+.background-shape-green p {
   color: #000; /* Set text color to black */
+  padding: 20px;
   /* opacity: 1; Set text opacity to 100% */
 }

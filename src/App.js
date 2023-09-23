@@ -19,7 +19,14 @@ function App() {
 
         <h2 id="mission">Mission</h2>
         <Container className="background-shape-green">
-          <p>Blah blah blah blah blah</p>
+          <p>
+            Our mission at Tailor Trade is to combat the ongoing environmental
+            damage being perpetuated by clothing waste and the fast fashion
+            industry. We also aim to create an accessible fashion-oriented
+            marketplace that seeks to eliminate any cost from the process — this
+            means no delivery fees, no-cost registration, and no transportation
+            fees.
+          </p>
         </Container>
       </Container>
     </>
