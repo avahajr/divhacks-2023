@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown, Image, Row, Col } from "react-bootstrap";
 
 function CollapsibleNavbar(props) {
   return (
@@ -12,19 +12,19 @@ function CollapsibleNavbar(props) {
         className="bg-body-tertiary"
       >
         <Container>
-        
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav as={Col} md={5}>
               <Nav.Link href="#mission">Mission Statement</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
             </Nav>
-            <Nav style={{alignContent:"center"}}>
-            <Navbar.Brand href="#home">
-            <img src="Divlogo-2.png" width={200} height={200}/>
-          </Navbar.Brand>
-          </Nav>
-            <Nav className="d-flex align-items-center">
+            <Nav className="d-flex align items-center" as={Col} md={6}>
+              <Navbar.Brand href="#home">
+                <img src="logo.png" width={200} alt="logo" />
+              </Navbar.Brand>
+            </Nav>
+            <Col ms={2}></Col>
+            <Nav className="d-flex align-items-center " as={Col} md={2}>
               <Image
                 height={25}
                 width={25}
