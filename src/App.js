@@ -21,7 +21,7 @@ function App() {
       </section>
       <Container>
         <section id="mission">
-          <h2>Mission</h2>
+          <h2 className="bold">Mission</h2>
           <Container className="background-shape-green">
             <p>
               Our mission at Tailor Trade is to combat the ongoing environmental
@@ -32,7 +32,7 @@ function App() {
               transportation fees.
             </p>
           </Container>
-          <h3>On Clothing Waste and Climate Change</h3>
+          <h3 className="bold">On Clothing Waste and Climate Change</h3>
           <Container className="background-shape-green">
             <p>
               Not much needs to be said about the devastating effects of climate
@@ -54,7 +54,7 @@ function App() {
           </Container>
         </section>
         <section id="faq">
-          <h2>Tricks of the Trade</h2>
+          <h2 className="bold">Tricks of the Trade</h2>
         </section>
       </Container>
     </>
