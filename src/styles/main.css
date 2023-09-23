@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 @import url("https://fonts.googleapis.com/css?family=Nunito");
-*{
+* {
   font-family: "Nunito";
   font-size: 16px;
 }
@@ -25,3 +25,6 @@
   min-height: "100vh" !important;
 }
 
+section {
+  min-height: 100em;
+}
