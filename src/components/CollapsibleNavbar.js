@@ -33,6 +33,12 @@ function CollapsibleNavbar(props) {
                 <Nav.Link href="./profile" className="text-start">
                   My Profile
                 </Nav.Link>
+                <Nav.Link
+                  href={"./" + props.name + "/trades"}
+                  className="text-start"
+                >
+                  Active trades
+                </Nav.Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
