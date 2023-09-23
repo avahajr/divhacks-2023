@@ -1,7 +1,10 @@
 import { Container } from "react-bootstrap";
-import CollapsibleNavbar from "./components/CollapsibleNavbar";
 
 import "./styles/search.css";
+import "./styles/shapes.css";
+
+import CollapsibleNavbar from "./components/CollapsibleNavbar";
+
 import SearchBar from "./components/SearchBar";
 import TitleBlock from "./components/TitleBlock";
 
