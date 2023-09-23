@@ -13,7 +13,7 @@ function CollapsibleNavbar(props) {
       >
         <Container>
           <Navbar.Brand href="#home" className="logo">
-            Tailor Trade
+            Logo
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,7 +29,7 @@ function CollapsibleNavbar(props) {
                 src="https://tinyurl.com/4bremhx7"
                 alt="avatar"
               ></Image>
-              <NavDropdown align="end" title={props.name}>
+              <NavDropdown align="end" title={"Hey there, " + props.name + "!"}>
                 <Nav.Link href="./profile" className="text-start">
                   My Profile
                 </Nav.Link>

@@ -1,13 +1,13 @@
-body {
-  background: #d1d5db;
-}
-
 .height {
   height: 100vh;
 }
 
 .form {
   position: relative;
+}
+
+.form-control {
+  background-color: #bfe2b4 !important;
 }
 
 .form .fa-search {

@@ -6,8 +6,12 @@
 }
 
 .purpose {
+  margin: auto;
   font-size: 3em;
-  align-items: center;
+  font-family: "Bebas Neue";
+  /* margin: auto; */
+  max-width: 75% !important;
+  height: 20% !important;
 }
 
 .background-shape {
@@ -23,4 +27,9 @@
 .background-shape p {
   color: #000; /* Set text color to black */
   /* opacity: 1; Set text opacity to 100% */
+}
+.title-block {
+  font-size: 10em;
+  font-family: "Bebas Neue";
+  min-height: "100vh" !important;
 }
