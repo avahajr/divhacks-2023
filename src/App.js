@@ -7,7 +7,7 @@ import SearchBar from "./components/SearchBar";
 function App() {
   return (
     <>
-      <CollapsibleNavbar />
+      <CollapsibleNavbar name="Jane Barnard" />
       <Container>
         <SearchBar />
       </Container>

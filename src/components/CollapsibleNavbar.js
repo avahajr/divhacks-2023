@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
-function CollapsibleNavbar() {
+function CollapsibleNavbar(props) {
   return (
     <>
       <Navbar
@@ -28,8 +28,10 @@ function CollapsibleNavbar() {
                 src="https://tinyurl.com/4bremhx7"
                 alt="avatar"
               ></Image>
-              <NavDropdown align="end">
-                <Nav.Link href="./profile">My Profile</Nav.Link>
+              <NavDropdown align="end" title={props.name}>
+                <Nav.Link href="./profile" className="text-start">
+                  My Profile
+                </Nav.Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
