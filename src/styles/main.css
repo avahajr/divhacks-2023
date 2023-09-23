@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 
+body {
+  background-color: "fffff3";
+}
+
 .logo {
   font-family: "Bebas Neue";
   font-size: 2em;
@@ -19,3 +23,4 @@
   font-family: "Bebas Neue";
   min-height: "100vh" !important;
 }
+
