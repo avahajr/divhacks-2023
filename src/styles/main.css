@@ -14,12 +14,32 @@
   height: 20% !important;
 }
 
-.background-shape {
+.background-shape-green {
   background-color: rgba(
-    85,
-    85,
-    85,
-    0.2
+    191,
+    226,
+    180,
+    255
+  ); /* Use rgba to set opacity for background */
+  border-radius: 10px;
+}
+
+.background-shape-red {
+  background-color: rgba(
+    219,
+    77,
+    77,
+    255
+  ); /* Use rgba to set opacity for background */
+  border-radius: 10px;
+}
+
+.background-shape-pink {
+  background-color: rgba(
+    245,
+    193,
+    193,
+    255
   ); /* Use rgba to set opacity for background */
   border-radius: 10px;
 }

@@ -15,7 +15,7 @@ function App() {
         <SearchBar />
 
         <h2 id="mission">Mission</h2>
-        <Container className="background-shape">
+        <Container className="background-shape-green">
           <p>Blah blah blah blah blah</p>
         </Container>
       </Container>
