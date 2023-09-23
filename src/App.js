@@ -54,7 +54,73 @@ function App() {
           </Container>
         </section>
         <section id="faq">
-          <h2 className="bold">Tricks of the Trade</h2>
+          <h2 className="bold">Tricks of the Trade (FAQs)</h2>
+          <Container className="background-shape-pink">
+            <br />
+            <p>
+              <div className="bold">
+                Are the clothing/services swaps completely free of charge?
+              </div>
+              <p>
+                Yes! We aim to create a completely free of charge platform. None
+                of the traders on this site should be charging you for the swap.
+                All swaps are also organized by campus in order to eliminate
+                transportation fees. What if I don’t want to accept a swap?
+                That’s completely fine! Both parties need to be open to and
+                approve of the swap so you can choose to decline and there are
+                no hard feelings:)
+              </p>
+              <div className="bold">
+                Can I swap with people from other campuses?
+              </div>
+              <p>
+                We strongly encourage you to not do this (especially if the
+                other campus is outside of the city, or state) as we want to
+                eliminate any fees included in the clothes sale process,
+                including transportation fees. That being said, if you do want
+                to engage in a shipping process, you may reach out to the trader
+                offering a good or service and request it. However, Tailor Trade
+                will not be responsible for managing how fees will be
+                distributed for shipping/delivery.{" "}
+              </p>
+              <div className="bold">
+                Can we trade non-clothing related goods and services?
+              </div>
+              <p>
+                {" "}
+                No! Tailor Trade is solely focused on serving as an accessible
+                and sustainable alternative for manufacturers in the fashion
+                industry so no non-clothing related goods and services should be
+                on the site. Any posts about non-clothing goods and services
+                will be removed from the site. However, there is absolutely a
+                chance that Tailor Trade expands to encompass a wide range of
+                goods so stay tuned!
+              </p>
+              <div className="bold">Can we undo a swap after accepting?</div>
+              <p>
+                {" "}
+                After a swap approval has been made by both parties, everything
+                is to be organized between the two traders. So, you absolutely
+                can undo a swap after accepting though we do not guarantee that
+                the other trader will be happy about it and this will have to be
+                facilitated between the traders directly! Most importantly, make
+                sure that you’re certain before accepting the swap before
+                accepting so you can avoid this situation in the first place.
+              </p>
+              <div className="bold">
+                What kinds of services can I post for trade on the site?{" "}
+              </div>
+              <p>
+                Anything clothing-related is appreciated! Some suggestions of
+                what kind of service you could offer for trade are: embroidery,
+                clothing/shoe repair, cropping, crochet, etc. Tailoring and
+                upcycling services are our intended purpose for the services
+                option, but don’t feel limited to the listed services here. If
+                you have another valuable clothing-related service you think
+                others would enjoy feel free to post!
+              </p>
+            </p>
+          </Container>
         </section>
       </Container>
     </>

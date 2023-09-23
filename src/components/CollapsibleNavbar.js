@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { Nav, Navbar, NavDropdown, Image, Row, Col } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown, Image, Col } from "react-bootstrap";
 
 function CollapsibleNavbar(props) {
   return (
@@ -20,7 +20,7 @@ function CollapsibleNavbar(props) {
             </Nav>
             <Nav className="d-flex align items-center" as={Col} md={6}>
               <Navbar.Brand href="#home">
-                <img src="logo.png" width={200} alt="logo" />
+                <img src="logo.png" width={300} alt="logo" />
               </Navbar.Brand>
             </Nav>
             <Col ms={2}></Col>

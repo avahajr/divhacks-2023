@@ -34,3 +34,9 @@
   font-size: 1.3em;
   /* opacity: 1; Set text opacity to 100% */
 }
+.background-shape-pink p {
+  color: #000; /* Set text color to black */
+  padding: 20px;
+  font-size: 20px;
+  /* opacity: 1; Set text opacity to 100% */
+}
