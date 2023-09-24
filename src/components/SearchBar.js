@@ -1,4 +1,5 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function SearchBar() {
   return (
@@ -12,7 +13,12 @@ export default function SearchBar() {
               className="me-2 rounded-pill"
               aria-label="Search"
             />
-            <Button className="rounded-pill" variant="outline-primary">
+            <Button
+              as={Link}
+              to={"/posts"}
+              className="rounded-pill"
+              variant="outline-primary"
+            >
               <i class="bi bi-search"></i>
             </Button>
           </Form>

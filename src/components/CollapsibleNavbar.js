@@ -19,16 +19,16 @@ function CollapsibleNavbar(props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav as={Col} md={4}>
-              <Nav.Link as={Link} to={"#mission"}>
+              <Nav.Link as={Link} to={"/#mission"}>
                 Mission Statement
               </Nav.Link>
-              <Nav.Link as={Link} to={"#faq"}>
+              <Nav.Link as={Link} to={"/#faq"}>
                 FAQ
               </Nav.Link>
             </Nav>
             <Nav className="d-flex align" as={Col} md={4}>
               {width > 992 ? (
-                <Navbar.Brand className="mx-auto" href="#home">
+                <Navbar.Brand className="mx-auto" as={Link} to={"/"}>
                   <img src="logo.png" width={300} alt="logo" />
                 </Navbar.Brand>
               ) : (
