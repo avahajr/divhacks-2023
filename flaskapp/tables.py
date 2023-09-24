@@ -1,4 +1,4 @@
-from flaskapp import db
+from flaskapp import app, db
 from flask_login import UserMixIn
 from datetime import datetime
 
@@ -10,10 +10,11 @@ class User(db.Model, UserMixIn):
     email = db.Column(db.String(30), nullable=False)
     phone = db.Column(db.Integer)
 
-# class Post():
-#     __table_name__ = 'posts'
+class Post():
+    __table_name__ = 'posts'
 
-#     user_name = db.Column(db.String(30), db.ForeignKey(User.name))
-#     name = db.relationship('User', foreign_keys='User.name', back_populates="posts")
-#     date = db.Column(db.DateTime, nullable=False, default=datetime.now)
-#     type = db.Column(db.String(30))
+    item = db.Column(db.String(30))
+    user_name = db.Column(db.String(30), db.ForeignKey(User.username))
+    name = db.relationship('User', foreign_keys='User.username', back_populates="posts")
+    date = db.Column(db.DateTime, nullable=False, default=datetime.now)
+    type = db.Column(db.String(30))
