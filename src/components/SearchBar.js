@@ -6,7 +6,7 @@ export default function SearchBar() {
     <Container className="mt-5">
       <Row className="justify-content-sm-center">
         <Col className="i-am-centered">
-          <Form className="d-flex">
+          <Form method="GET" className="d-flex">
             <Form.Control
               id="filter"
               type="search"
