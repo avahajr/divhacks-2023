@@ -27,11 +27,11 @@
 }
 
 .title-block {
-  font-size: 10em;
+  font-size: clamp(5rem, -0.875rem + 8.333vw, 10rem);
   font-family: "Bebas Neue";
   min-height: "100vh" !important;
 }
 
 section {
-  min-height: 100em;
+  min-height: 100vh;
 }
