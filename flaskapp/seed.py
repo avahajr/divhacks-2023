@@ -15,7 +15,7 @@ def seed(db):
     }
 
     items = {
-        Item(item_id=1, item="trench coat", username="nolongerhuman", date=randomdate(), type="Clothes"),
+        Item(item_id=1, item="trench coat", username="nolongerhuman", date=randomdate(), type="Clothes", description="very good quality"),
         Item(item_id=2, item="belt", username="weretiger", date=randomdate(), type="Clothes"),
         Item(item_id=3, item="tie", username="doctor", date=randomdate(), type="Accessories"),
         Item(item_id=4, item="bandages", username="nolongerhuman", date=randomdate(), type="Other"),
