@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flaskapp import app, db, seed
+from flaskapp.tables import *
 
 def build_db():
 
@@ -13,7 +14,10 @@ def build_db():
 
     print("Sample DB built!")
 
-    # print(User.query)
+    itemdata = Item.query.filter_by(type="Clothes")
+    # all_items = [piece for piece in itemdata]
+    for piece in itemdata:
+        print(piece)
 
     return
 

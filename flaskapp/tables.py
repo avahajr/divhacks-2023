@@ -23,3 +23,4 @@ class Item(db.Model):
     # name = db.relationship('User', foreign_keys='User.username', back_populates="posts")
     date = db.Column(db.DateTime, nullable=False, default=datetime.now)
     type = db.Column(db.String(30))
+    description = db.Column(db.String(100))
