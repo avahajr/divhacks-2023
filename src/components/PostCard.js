@@ -8,6 +8,9 @@ function PostCard(props) {
       <Card.Body>
         <Card.Title>{props.itemName}</Card.Title>
         <Card.Text>{props.itemDescription}</Card.Text>
+        <Card.Footer>
+          <small className="text-muted">{props.date}</small>
+        </Card.Footer>
       </Card.Body>
     </Card>
   );
