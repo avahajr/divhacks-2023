@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar, NavDropdown, Image, Col } from "react-bootstrap";
 import { useWindowSize } from "@uidotdev/usehooks";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function CollapsibleNavbar(props) {
   let { _, width } = useWindowSize();
