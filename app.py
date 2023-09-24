@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flaskapp import app, db, seed
+from flaskapp import app, db
 
 def build_db():
 
@@ -8,11 +8,6 @@ def build_db():
     db.drop_all()
     print("Creating tables...")
     db.create_all()
-
-    seed(db)
-
-    print("Sample DB built!")
-    return
 
 if __name__ == '__main__':
 
