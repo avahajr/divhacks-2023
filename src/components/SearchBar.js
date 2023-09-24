@@ -8,6 +8,7 @@ export default function SearchBar() {
         <Col className="i-am-centered">
           <Form className="d-flex">
             <Form.Control
+              id="filter"
               type="search"
               placeholder="Search..."
               className="me-2 rounded-pill"
