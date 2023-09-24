@@ -1,4 +1,4 @@
-from flaskapp.tables import User, Post
+from flaskapp.tables import User, Item
 from datetime import datetime
 import random
 
@@ -14,22 +14,22 @@ def seed(db):
         User(id=6, name="Izumo Kyouka", username="demonsnow", password="foundfamily", email="izumik@gmail.com", phone=7642458642)
     }
 
-    posts = {
-        Post(item="trench coat", username="nolongerhuman", date=randomdate(), type="Clothes"),
-        Post(item="belt", username="weretiger", date=randomdate(), type="Clothes"),
-        Post(item="tie", username="doctor", date=randomdate(), type="Accessories"),
-        Post(item="bandages", username="nolongerhuman", date=randomdate(), type="Other"),
-        Post(item="black coat", username="rashoumon", date=randomdate(), type="Clothes"),
-        Post(item="red kimono", username="demonsnow", date=randomdate(), type="Clothes"),
-        Post(item="fedora hat", username="arahabaki", date=randomdate(), type="Clothes"),
-        Post(item="blouae", username="rashoumon", date=randomdate(), type="Clothes"),
-        Post(item="blazer", username="arahabaki", date=randomdate(), type="Clothes"),
-        Post(item="headband", username="demonsnow", date=randomdate(), type="Accessories"),
-        Post(item="long skirt", username="doctor", date=randomdate(), type="Clothes"),
-        Post(item="boots", username="weretiger", date=randomdate(), type="Shoes")
+    items = {
+        Item(item_id=1, item="trench coat", username="nolongerhuman", date=randomdate(), type="Clothes"),
+        Item(item_id=2, item="belt", username="weretiger", date=randomdate(), type="Clothes"),
+        Item(item_id=3, item="tie", username="doctor", date=randomdate(), type="Accessories"),
+        Item(item_id=4, item="bandages", username="nolongerhuman", date=randomdate(), type="Other"),
+        Item(item_id=5, item="black coat", username="rashoumon", date=randomdate(), type="Clothes"),
+        Item(item_id=6, item="red kimono", username="demonsnow", date=randomdate(), type="Clothes"),
+        Item(item_id=7, item="fedora hat", username="arahabaki", date=randomdate(), type="Clothes"),
+        Item(item_id=8, item="blouse", username="rashoumon", date=randomdate(), type="Clothes"),
+        Item(item_id=9, item="blazer", username="arahabaki", date=randomdate(), type="Clothes"),
+        Item(item_id=10, item="headband", username="demonsnow", date=randomdate(), type="Accessories"),
+        Item(item_id=11, item="long skirt", username="doctor", date=randomdate(), type="Clothes"),
+        Item(item_id=12, item="boots", username="weretiger", date=randomdate(), type="Shoes")
     }
 
 def randomdate():
     day = random.randint(1,23)
-    x = datetime.datetime(2023, 9, day)
+    x = datetime(2023, 9, day)
     return x
