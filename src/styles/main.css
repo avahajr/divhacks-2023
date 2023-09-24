@@ -32,6 +32,9 @@
   min-height: "100vh" !important;
 }
 
+nav {
+  display: block;
+}
 section {
   min-height: 100vh;
 }
