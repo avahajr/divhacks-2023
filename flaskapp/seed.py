@@ -29,6 +29,10 @@ def seed(db):
         Post(item="boots", username="weretiger", date=randomdate(), type="Shoes")
     }
 
+    db.session.add_all(users)
+    db.session.add_all(posts)
+    db.session.commit()
+
 def randomdate():
     day = random.randint(1,23)
     x = datetime.datetime(2023, 9, day)

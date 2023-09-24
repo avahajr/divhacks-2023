@@ -10,6 +10,9 @@ class User(db.Model, UserMixIn):
     email = db.Column(db.String(30), nullable=False)
     phone = db.Column(db.Integer)
 
+    def __repr__(self):
+        return f'User({self.username}, {self.email})'
+
 class Post():
     __table_name__ = 'posts'
 
@@ -18,3 +21,6 @@ class Post():
     name = db.relationship('User', foreign_keys='User.username', back_populates="posts")
     date = db.Column(db.DateTime, nullable=False, default=datetime.now)
     type = db.Column(db.String(30))
+
+    def __repr__(self):
+        return f'Post({self.item}, {self.user_name}, {self.type})'
