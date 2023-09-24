@@ -31,7 +31,12 @@ function CollapsibleNavbar(props) {
               )}
             </Nav>
             {/* <Col ms={4}></Col> */}
-            <Nav className="d-flex align-items-center" as={Col} md={4}>
+            <Nav
+              style={{ marginLeft: "15em" }}
+              className="d-flex align-items-center"
+              as={Col}
+              md={4}
+            >
               <Image
                 height={25}
                 width={25}
@@ -39,7 +44,7 @@ function CollapsibleNavbar(props) {
                 src="https://tinyurl.com/4bremhx7"
                 alt="avatar"
               ></Image>
-              <NavDropdown align="end" title={"Hey there, " + props.name + "!"}>
+              <NavDropdown title={"Hey there, " + props.name + "!"}>
                 <Nav.Link href="./profile" className="text-start">
                   My Profile
                 </Nav.Link>
