@@ -53,27 +53,25 @@ function Home() {
           </Container>
         </section>
         <section id="how-to-swap">
-        <h2 className="bold">How To Swap (FAQs)</h2>
+          <h2 className="bold">How To Swap (FAQs)</h2>
           <Container className="background-shape-pink">
             <p>
-              <div className="bold">
-              List Your Items
-                </div>
+              <div className="bold">List Your Items</div>
               <p>
-              Set up your profile, and make sure to include your campus! Include 
-              the contact information you’re comfortable sharing Make a post! 
-              Remember to tag your post as either a clothing item or service.
+                Set up your profile, and make sure to include your campus!
+                Include the contact information you’re comfortable sharing Make
+                a post! Remember to tag your post as either a clothing item or
+                service.
               </p>
-              <div className="bold">
-              Start Swapping
-                </div>
+              <div className="bold">Start Swapping</div>
               <p>
-              Find your campus by searching on the home page. You will find all
-              listings, clothes or services, for your campus. When you find 
-              something you life, you can contact the user who posted and propose a swap. 
-              When you find something you like, you can message the user who posted and
-              propose a swap.  Once both parties have accepted, you can maintain contact 
-              and coordinate your in-person swap.
+                Find your campus by searching on the home page. You will find
+                all listings, clothes or services, for your campus. When you
+                find something you life, you can contact the user who posted and
+                propose a swap. When you find something you like, you can
+                message the user who posted and propose a swap. Once both
+                parties have accepted, you can maintain contact and coordinate
+                your in-person swap.
               </p>
             </p>
           </Container>
@@ -81,13 +79,15 @@ function Home() {
         <section id="guideline">
           <h2 className="bold"> Guidelines</h2>
           <Container className="background-shape-green">
-          <p>
-          Do NOT charge any fees: everything is meant to be completely free Please describe
-          all possible issues with your listed clothing item (tears, rips, missing buttons,
-          etc.) If you are offering a service, include (if possible) images of previous 
-          tailoring/upcycling work you have done. Additionally, you are expected to supply 
-          tools for tailoring unless the person you are trading with has offered to provide.
-          </p>
+            <p>
+              Do NOT charge any fees: everything is meant to be completely free
+              Please describe all possible issues with your listed clothing item
+              (tears, rips, missing buttons, etc.) If you are offering a
+              service, include (if possible) images of previous
+              tailoring/upcycling work you have done. Additionally, you are
+              expected to supply tools for tailoring unless the person you are
+              trading with has offered to provide.
+            </p>
           </Container>
         </section>
         <section id="faq">
