@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar, NavDropdown, Image, Col } from "react-bootstrap";
 import { useWindowSize } from "@uidotdev/usehooks";
+import { Link } from "react-router-dom";
 
 function CollapsibleNavbar(props) {
   let { _, width } = useWindowSize();
@@ -18,8 +19,12 @@ function CollapsibleNavbar(props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav as={Col} md={4}>
-              <Nav.Link href="#mission">Mission Statement</Nav.Link>
-              <Nav.Link href="#faq">FAQ</Nav.Link>
+              <Nav.Link as={Link} to={"#mission"}>
+                Mission Statement
+              </Nav.Link>
+              <Nav.Link as={Link} to={"#faq"}>
+                FAQ
+              </Nav.Link>
             </Nav>
             <Nav className="d-flex align" as={Col} md={4}>
               {width > 992 ? (

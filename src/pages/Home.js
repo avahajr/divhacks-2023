@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import "../styles/search.css";
 import "../styles/shapes.css";
 
-import CollapsibleNavbar from "../components/CollapsibleNavbar";
+// import CollapsibleNavbar from "../components/CollapsibleNavbar";
 
 import SearchBar from "../components/SearchBar";
 import TitleBlock from "../components/TitleBlock";
@@ -13,9 +13,8 @@ function Home() {
     <>
       {/* TODO: get props.name from the db*/}
       <section id="home">
-        <CollapsibleNavbar name="Jane" />
         <Container>
-          <TitleBlock />
+          <TitleBlock text="Tailor Trade" />
           <SearchBar />
         </Container>
       </section>

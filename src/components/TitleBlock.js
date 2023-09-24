@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-function TitleBlock() {
+function TitleBlock(props) {
   return (
     <Container className="title-block d-flex justify-content-center align-items-center">
-      Tailor Trade
+      {props.text}
     </Container>
   );
 }

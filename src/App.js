@@ -1,18 +1,20 @@
-import { Container } from "react-bootstrap";
-
 import "./styles/search.css";
 import "./styles/shapes.css";
 
 import CollapsibleNavbar from "./components/CollapsibleNavbar";
 
-import SearchBar from "./components/SearchBar";
-import TitleBlock from "./components/TitleBlock";
 import Home from "./pages/Home";
+import { Route, Routes } from "react-router-dom";
+import Posts from "./pages/Posts";
 
 function App() {
   return (
     <>
-      <Home></Home>
+      <CollapsibleNavbar name="Jane" />
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/posts" Component={Posts} />
+      </Routes>
     </>
   );
 }
